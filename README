@@ -1,0 +1,42 @@
+**************************************************IMPORTANT**********************************************************
+Given this submission are not permitted to include data set. Plcase appraoch data set from the following link.
+
+https://archive.ics.uci.edu/ml/machine-learning-databases/adult/
+
+AND PLEASE COPY adult.data and adult.test to folder Test and Parameter adjustment, and the code could be able to run.
+*********************************************************************************************************************
+
+
+Source Codes are separate in two folders, namely Test and Parameter adjustment.
+
+
+Each folder contains 4 algorithm which covered in our project. And the file name indicates which
+algorithm were used.
+
+
+Test folder includes codes that holds parameters atfer fine tuned. Simply run code to see classification result.
+The result include normalized confusion matrix and accuracy, precision, recall and Fxcore for this test.
+
+
+Parameter adjustment folder includes codes used for fine tune for each algorithm. The output includes the same
+output as test folder codes as well as a report about precision, recall for each possible parameter set. 
+A overall best parameter set will be print out in kernel.
+
+
+File Structure
+--README.txt
+--COMP5318 Report Assignment 2 (470147746_470138674).docx
+--Test
+	--adult.data
+	--adult.test
+	--Bagging_DecisionTree.py
+	--MPLC.py
+	--SGD.py
+	--SVM.py
+--Parameter adjustment
+	--adult.data
+	--adult.test
+	--Bagging_DecisionTree.py
+	--MPLC.py
+	--SGD.py
+	--SVM.py
